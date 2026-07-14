@@ -1,0 +1,20 @@
+[tool.pytest.ini_options]
+# Bare `pytest` at the repo root checks the learner's workspace only.
+# `solutions/` is checked explicitly (`pytest solutions/` / `make check-solutions`) —
+# scanning both trees in one invocation makes pytest raise "import file mismatch"
+# since exercise and solution modules share names (e.g. two `basics.py`).
+testpaths = ["exercises"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+# Run mypy against exercises/ and solutions/ SEPARATELY (never both at once) —
+# same duplicate-module-name issue as pytest, but mypy calls it
+# "Duplicate module named".
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]
