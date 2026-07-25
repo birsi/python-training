@@ -138,6 +138,10 @@ pyproject.toml         ← pytest / mypy / ruff configuration
 requirements-dev.txt   ← pytest, mypy, ruff
 ```
 
+## 🤝 Contributing
+
+Found a bug, an unclear task, or an idea for a new exercise? Suggestions are welcome — [open an issue](https://github.com/birsi/python-training/issues) or [start a discussion](https://github.com/birsi/python-training/discussions), and PRs are always welcome too.
+
 ---
 
 <div align="center">
