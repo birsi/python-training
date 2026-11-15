@@ -1,3 +1,7 @@
+> [!IMPORTANT]
+> **This repository has moved.** The course now lives in [**birsi/polyglot-training**](https://github.com/birsi/polyglot-training/tree/main/python), together with the other language courses.
+> This repo is archived and read-only.
+
 <div align="center">
 
 # 🎓 Python Training
